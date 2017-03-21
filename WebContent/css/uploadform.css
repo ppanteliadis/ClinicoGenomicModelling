@@ -1,0 +1,28 @@
+.center_div{
+    margin: 0 auto;
+    width:50% /* value of your choice which suits your alignment */
+}
+
+form {
+    display: inline-block;
+    text-align: center;
+}
+
+
+
+.uploadform {
+	background-color : #eff0f1;
+	margin: 0;
+	padding: 0;
+}
+.uploadform h1 {
+	color : #FFFFFF;
+	text-align : center;
+	font-family: "SIMPSON";
+}
+.uploadform form {
+	width: 300px;
+	margin: 0 auto;
+}
+
+

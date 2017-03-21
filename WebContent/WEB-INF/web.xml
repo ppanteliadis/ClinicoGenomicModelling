@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>ClinicoGenomicOnline</display-name>
+  <servlet>
+    <servlet-name>ClusteringParameters</servlet-name>
+    <servlet-class>gr.ics.forth.clinicogenomic.ClusteringParameters</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UploadServlet</servlet-name>
+    <servlet-class>gr.ics.forth.clinicogenomic.UploadServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DownloadServlet</servlet-name>
+    <servlet-class>gr.ics.forth.clinicogenomic.DownloadServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GenerateArff</servlet-name>
+    <servlet-class>gr.ics.forth.clinicogenomic.GenerateArff</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ClusterSelectionServlet</servlet-name>
+    <servlet-class>gr.ics.forth.clinicogenomic.ClusterSelectionServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ReClusterWithSameSettings</servlet-name>
+    <servlet-class>gr.ics.forth.clinicogenomic.ReClusterWithSameSettingsServlet</servlet-class>
+  </servlet>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
